@@ -11,7 +11,7 @@
 
  .header__menu {
   padding-left: 50px;
- }
+}
   
 .header__links-list {
   display: flex;
@@ -24,7 +24,6 @@
 .header__links-list-item {
   list-style-type: circle;
   text-decoration: underline;
- 
 } 
 
 .header__links-list-item_no-bullit {
@@ -35,7 +34,6 @@
 .header__logo-image {
   width: 148px;
   height: 105px;
- 
 }
 
 .address {
@@ -49,47 +47,124 @@
   gap: 3px;
 }
 
-
-/* .header__link {
-  
-} */
-
-/* .cover {
-
-}
-
-.description {
-
+.cover {
+  min-height: 757px;
+  background-image: url(./../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .overlay {
+  position: absolute;
+  opacity: 60%;
+  inset: 0;
+  background-color: rgba(0 0 0);
+  z-index: 1;
+}
+
+.cover__title {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 165px 50px 207px 50px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 1000px;
+  height: 385px;
+}
+
+.aligned-text_left {
+  text-align: left;
+  top: 165px;
+  left: 50px;
+}
+
+.aligned-text_center {
+  text-align: center;
+  top: 300px;
+  left: 380.5px;
+}
+
+.aligned-text_right {
+  text-align: right;
+  right: 50px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 30px; 
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  color: rgb(255, 255, 255);
+  padding: 656px 50px 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.cover__description-text {
+  text-transform: uppercase;
+  font-size: 22px;
+  word-spacing: 18px;
 
 }
 
-.lots {
-
+.bet-button {
+  text-transform: uppercase;
+  font-size: 22px;
+  width: 256px;
+  height: 51px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: 1px solid #fff;
 }
 
-.card {
 
-}
 
-.about {
 
-}
-
-.columns {
-
-}
-
-.first-column {
-
-}
-
-.second-column {
-
-}
-
-.social {
+/* .lots {
 
 } */
+
+/* .card {
+
+} */
+
+/* .about {
+
+} */
+
+/* .columns {
+
+} */
+
+/* .first-column {
+
+} */
+
+/* .second-column {
+
+} */
+
+/* .social {
+
+} */ 
